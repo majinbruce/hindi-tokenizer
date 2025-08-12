@@ -15,9 +15,9 @@ This project is a custom JavaScript tokenizer that learns a vocabulary from text
 
 The tokenizer uses the following special tokens, which are common in NLP models:
 
-*   **`[UNK]` (Unknown):** This token is used for words that are not in the vocabulary. If the tokenizer encounters a word it doesn't know, it uses this token. In our tokenizer, this is `GADBAD`.
-*   **`[PAD]` (Padding):** This token is used to make all input sequences the same length. This is important when processing text in batches. In our tokenizer, this is `BEKAR`.
-*   **`[CLS]` (Classification):** This token is added to the beginning of a sequence. It's often used by models to represent the entire sequence for classification tasks. In our tokenizer, this is `SHURU`.
+*   **`[UNK]` (Unknown):** This token is used for words that are not in the vocabulary. If the tokenizer encounters a word it doesn't know, it uses this token. In our tokenizer, this is `NAHI PATA`.
+*   **`[PAD]` (Padding):** This token is used to make all input sequences the same length. This is important when processing text in batches. In our tokenizer, this is `PADMAN`.
+*   **`[CLS]` (Classification):** This token is added to the beginning of a sequence. It's often used by models to represent the entire sequence for classification tasks. In our tokenizer, this is `HAM JAHA KAHDE HO INPUT SEQUENCE WAHI SE SHURU HOTI HAI`.
 *   **`[SEP]` (Separator):** This token is used to separate two different sentences or sequences of text. In our tokenizer, this is `KHATAM`.
 
 ## Setup and Usage
