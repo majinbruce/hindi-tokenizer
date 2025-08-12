@@ -50,14 +50,6 @@ piyush is a cutie
   "[PAD]": "PADMAN",
   "[CLS]": "HAM JAHA KAHDE HO INPUT SEQUENCE WAHI SE SHURU HOTI HAI",
   "[SEP]": "KHATAM",
-  "Aaj": "MIA KHALIFA_0",
-  "Blue": "MODIJI_1",
-  "hai": "BABURAO_2",
-  "Pani": "HAKLA SHARUKH_3",
-  "aur": "DEEPAK KALAL_4",
-  "din": "BHIKHMANGE_5",
-  "bhi": "CHUMMA_6",
-  "sunny": "GADHE_7",
   "piyush": "MIA KHALIFA_0",
   "is": "MODIJI_1",
   "a": "BABURAO_2",
@@ -82,4 +74,4 @@ piyush is a cutie
 
 ## Screenshots
 
-*[![Screenshot-from-2025-08-12-17-50-09.png](https://i.postimg.cc/HszpmXJP/Screenshot-from-2025-08-12-17-50-09.png)](https://postimg.cc/VdSyBSWj)*
+*[![Screenshot-from-2025-08-12-18-04-12.png](https://i.postimg.cc/1361tF4Q/Screenshot-from-2025-08-12-18-04-12.png)](https://postimg.cc/gxYTtnvS)*
