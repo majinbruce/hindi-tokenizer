@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #162447;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    border: 2px solid #ff2e63;
+}
+
+h1 {
+    font-family: 'Creepster', cursive;
+    text-align: center;
+    color: #ff2e63;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    animation: shake 1.5s infinite;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.subtitle {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 40px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.tokenizer {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.input-section, .output-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea, .output-box {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    background-color: #1f4068;
+    color: #e0e0e0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 200px;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+
+.output-box {
+    min-height: 100px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #ff2e63;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #00ffff;
+    color: #1a1a2e;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.vocab-section {
+    margin-top: 40px;
+}
+
+h2 {
+    color: #00ffff;
+    border-bottom: 2px solid #ff2e63;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: #ff2e63;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
