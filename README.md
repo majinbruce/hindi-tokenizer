@@ -1,4 +1,4 @@
-# Funny English Tokenizer
+# Funny Hindi Tokenizer
 
 ## A Fun and Quirky Tokenizer
 
@@ -24,7 +24,7 @@ The tokenizer uses the following special tokens, which are common in NLP models:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/hindi-tokenizer.git
+   git clone https://github.com/majinbruce/hindi-tokenizer.git
    ```
 
 2. **Open `index.html` in your browser:**
@@ -40,53 +40,46 @@ The tokenizer uses the following special tokens, which are common in NLP models:
 
 **Input Text:**
 ```
-Hello, world!
+piyush is a cutie
 ```
 
 **Learned Vocab:**
 ```json
 {
-  "[UNK]": "GADBAD",
-  "[PAD]": "BEKAR",
-  "[CLS]": "SHURU",
+  "[UNK]": "NAHI PATA",
+  "[PAD]": "PADMAN",
+  "[CLS]": "HAM JAHA KAHDE HO INPUT SEQUENCE WAHI SE SHURU HOTI HAI",
   "[SEP]": "KHATAM",
-  "H": "GADHE_0",
-  "e": "ULLU_1",
-  "l": "PAGAL_2",
-  "o": "MAST_3",
-  ",": "CHAL_4",
-  " ": "HATT_5",
-  "w": "DHEERE_6",
-  "r": "ZOR SE_7",
-  "d": "BEBAS_8",
-  "!": "DHOKHA_9"
+  "Aaj": "MIA KHALIFA_0",
+  "Blue": "MODIJI_1",
+  "hai": "BABURAO_2",
+  "Pani": "HAKLA SHARUKH_3",
+  "aur": "DEEPAK KALAL_4",
+  "din": "BHIKHMANGE_5",
+  "bhi": "CHUMMA_6",
+  "sunny": "GADHE_7",
+  "piyush": "MIA KHALIFA_0",
+  "is": "MODIJI_1",
+  "a": "BABURAO_2",
+  "cutie": "HAKLA SHARUKH_3"
 }
 ```
 
 **Encoded Output:**
 ```json
 [
-  "GADHE_0",
-  "ULLU_1",
-  "PAGAL_2",
-  "PAGAL_2",
-  "MAST_3",
-  "CHAL_4",
-  "HATT_5",
-  "DHEERE_6",
-  "MAST_3",
-  "ZOR SE_7",
-  "PAGAL_2",
-  "BEBAS_8",
-  "DHOKHA_9"
+  "MIA KHALIFA_0",
+  "MODIJI_1",
+  "BABURAO_2",
+  "HAKLA SHARUKH_3"
 ]
 ```
 
 **Decoded Output:**
 ```
-Hello, world!
+piyush is a cutie
 ```
 
 ## Screenshots
 
-*Screenshot of the web interface will be added here.*
+*[![Screenshot-from-2025-08-12-17-50-09.png](https://i.postimg.cc/HszpmXJP/Screenshot-from-2025-08-12-17-50-09.png)](https://postimg.cc/VdSyBSWj)*
